@@ -1,0 +1,7 @@
+exclude: ['README.md']
+permalink: pretty
+title: SoftsPlay - Storing and Sharing Knowledge
+windows-loc: /windows
+macos-loc: /macos
+linux-loc: /linux
+others-loc: /others

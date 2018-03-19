@@ -1,0 +1,99 @@
+body {
+    width: 1280px;
+    margin: auto;
+    align-content: center;
+    padding: 0;
+    background: #151515 url("../images/bkg.png") 0 0;
+    line-height: 1.5;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+
+.logo {
+    width: 15%;
+    height: auto;
+    float: left;
+    margin-right: 50px;
+}
+
+.header {
+    background-color: dimgray;
+    display: inline-block;
+    width: 1280px;
+}
+
+
+.menu {
+    background-color: lightgray;
+    color: forestgreen;
+    height: 30px;
+}
+
+.nav {
+    margin:  0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.nav > li {
+    display: inline-block;
+    margin-right: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.nav-bottom {
+    display: inline-block;
+    margin-right: 30px;
+    color: navy;
+    font-size: 14px;
+}
+
+a {
+    color: inherit;
+    font-style: inherit;
+    text-decoration: none;
+}
+
+
+.nav-top {
+    margin-top: 15px;
+    font-size: x-large;
+    color: #b5e853;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
+    font-size: 12px;
+}
+
+.content {
+    margin-top: 50px;
+    color: #eaeaea;
+    font-size: 14px;
+
+}
+
+.mainContent {
+
+    width: 1000px;
+    float: left;
+}
+
+.recentAdded {
+    padding-left: 6px;
+    width: 270px;
+    float: right;
+    border: 0.5px solid gray;
+}

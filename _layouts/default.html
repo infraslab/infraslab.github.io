@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{site.title}}</title>
+    <link href="/assets/css/welcome.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="upper">
+    {% include header.html navClass='nav-top' %}
+
+    <div class="content">
+        <div class="mainContent">
+            {{content}}
+
+        </div>
+
+        <div class="recentAdded">
+            <h3>
+                Recently Added
+            </h3>
+
+        </div>
+    </div>
+</div>
+
+{% include footer.html navClass='nav-bottom' %}
+
+</body>
+</html>

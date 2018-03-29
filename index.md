@@ -1,5 +1,6 @@
 ---
 layout: default
+title: SoftsPlay-Storing and Sharing Knowledge
 ---
 
 <h1>

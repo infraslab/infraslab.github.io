@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>
+    <a href="{% if page.url contains site.windows-loc %}{{site.windows-loc}}{% endif %}{% if page.url contains site.linux-loc %}{{site.linux-loc}}{% endif %}{% if page.url contains site.macos-loc %}{{site.macos-loc}}{% endif %}">{{page.type}}</a>
+</h1>
+<div class="mainContent pages">
+    <h2>
+        {{ page.title }}
+    </h2>
+</div>
+
+<div class="pageContent">
+{{content}}
+</div>

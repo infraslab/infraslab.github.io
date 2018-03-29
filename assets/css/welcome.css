@@ -17,7 +17,16 @@ body {
 }
 
 h1 {
+    font-size: 40px;
     color: forestgreen;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+h3 {
+    color: darkmagenta;
 }
 
 .header {
@@ -101,3 +110,16 @@ footer {
     float: right;
     border: 0.5px solid gray;
 }
+
+.pageContent {
+    padding-left: 30px;
+}
+
+code {
+    font-family:  monospace;
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 0px 3px;
+    margin: 0px -3px;
+    color: #aa759f;
+    border-radius: 2px; }

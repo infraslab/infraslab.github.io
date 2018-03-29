@@ -1,5 +1,5 @@
 body {
-    width: 1280px;
+    width: 1024px;
     margin: auto;
     align-content: center;
     padding: 0;
@@ -10,7 +10,7 @@ body {
 
 
 .logo {
-    width: 15%;
+    width: 17%;
     height: auto;
     float: left;
     margin-right: 50px;
@@ -22,7 +22,8 @@ h1 {
 }
 
 h2 {
-    padding-left: 10px;
+    font-size: 30px;
+    padding-left: 30px;
 }
 
 h3 {
@@ -32,7 +33,7 @@ h3 {
 .header {
     background-color: dimgray;
     display: inline-block;
-    width: 1280px;
+    width: 1024px;
 }
 
 
@@ -51,7 +52,7 @@ h3 {
 
 .nav > li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 25px;
     line-height: 1.5;
     font-weight: bold;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -92,27 +93,13 @@ footer {
 }
 
 .content {
-    margin-top: 50px;
     color: #eaeaea;
     font-size: 15px;
 
 }
 
-.mainContent {
-
-    width: 1000px;
-    float: left;
-}
-
-.recentAdded {
-    padding-left: 6px;
-    width: 270px;
-    float: right;
-    border: 0.5px solid gray;
-}
-
 .pageContent {
-    padding-left: 30px;
+    padding-left: 60px;
 }
 
 code {

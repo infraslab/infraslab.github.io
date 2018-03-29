@@ -13,6 +13,8 @@ title: SoftsPlay-Storing and Sharing Knowledge
 <p>
     SoftsPlay contains all the tricks or How-Tos or knowledge that I learn from the Internet or at the university.
     Therefore, the post here can be anything that is interesting for me.
+    <br>
+    SoftsPlay is created by Jekyll technology and hosted on Github.
 </p>
 
 <h3>

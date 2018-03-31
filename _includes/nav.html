@@ -5,8 +5,7 @@
             <li><a href="/" class="{% if page.url == '/' %}menu{% endif %}">Home</a></li>
             <li><a href="{{site.windows-loc}}"
                    class="{% if page.url contains 'windows' %}menu{% endif %}">Windows</a></li>
-            <li><a href="{{site.macos-loc}}" class="{% if page.url contains 'macos' %}menu{% endif %}">MacOS</a></li>
-            <li><a href="{{site.linux-loc}}" class="{% if page.url contains 'linux' %}menu{% endif %}">Linux/Ubuntu</a></li>
+            <li><a href="{{site.unix-linux-loc}}" class="{% if page.url contains 'unix' %}menu{% endif %}">Unix/Linux</a></li>
             <li><a href="{{site.others-loc}}" class="{% if page.url contains 'others' %}menu{% endif %}">Others</a></li>
             <li><a href="/about" class="{% if page.url contains 'about' %}menu{% endif %}">About</a></li>
         </ul>

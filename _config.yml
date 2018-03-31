@@ -5,3 +5,4 @@ windows-loc: /windows
 macos-loc: /macos
 linux-loc: /linux
 others-loc: /others
+unix-linux-loc: /unix-linux

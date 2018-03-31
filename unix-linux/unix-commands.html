@@ -2,8 +2,8 @@
 layout: post
 title: Basics of Unix / Linux Commands
 link: unix-commands
-category: macos
-type: MacOS
+category: unix-linux
+type: Unix / Linux
 ---
 
 <ul>
@@ -210,5 +210,46 @@ type: MacOS
         <code>
             $ cat list1 list2 | grep p | sort
         </code>
+    </li>
+    <li>
+        <code>*</code>: wildcard, which match against none or more character(s) in a file (or directory) name <br>
+        Example: list all files in the current directory starting with list.... <br>
+        <code>
+            $ ls list* <br>
+            $ ls *.java
+        </code>
+        <br>
+        <br>
+        The character <code>?</code> will match exactly one character.
+        So ?ouse will match files like house and mouse, but not grouse.
+        <br>
+        <code>
+            $ ls ?list
+        </code>
+    </li>
+    <li>
+        On-line manuals <br>
+        <code>
+            $ man wc <br>
+            $ whatis wc
+        </code>
+    </li>
+    <li>
+        When not sure of the exact name of a command <br>
+        <code>
+            $ apropos [keyword] <br>
+            $ apropos move
+        </code>
+    </li>
+    <li>
+        Change permission of file or directory: <br>
+        <code>
+            $ chmod a+rw file
+        </code>
+        <br>
+        See <a href="/unix-linux/access-rights" style="color: blue"><i><u>How to change access rights of files/directories</u></i></a>
+    </li>
+    <li>
+
     </li>
 </ul>

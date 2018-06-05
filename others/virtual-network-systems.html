@@ -34,6 +34,14 @@ The system will look like the following diagram:
             docker network connect br2 vm2<br>
         </code>
     </li>
+    <li>Setup iptabble for both routers: <br>
+        <code>
+            iptables -t nat -A POSTROUTING --out-interface eth1 -j MASQUERADE <br>
+            iptables -A FORWARD --in-interface eth0 -j ACCEPT<br>
+            iptables -t nat -A POSTROUTING --out-interface eth0 -j MASQUERADE<br>
+            iptables -A FORWARD --in-interface eth1 -j ACCEPT
+        </code>
+    </li>
     <li>For router1: <code>route add default gateway 172.17.0.3   (ip address of router 2)</code></li>
     <li>For router1: <code>route add default gateway 172.17.0.2   (ip address of router 1)</code></li>
     <li>For vm1: <code>route add default gateway 192.168.1.2</code></li>

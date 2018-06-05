@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28e8c80-5ee5-49ad-ad27-b4e59864db2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/others/virtual-network-systems.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/ITSEC_virtual_network.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/virtual-network-systems.html" beforeDir="false" afterPath="$PROJECT_DIR$/others/virtual-network-systems.html" afterDir="false" />
     </list>
     <ignored path="_site/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +48,8 @@
       <file leaf-file-name="virtual-network-systems.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/others/virtual-network-systems.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="11" column="153" selection-start-line="11" selection-start-column="153" selection-end-line="11" selection-end-column="153" />
+            <state relative-caret-position="469">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -345,7 +344,7 @@
       <workItem from="1522433285387" duration="10324000" />
       <workItem from="1522917453992" duration="346000" />
       <workItem from="1525005963672" duration="858000" />
-      <workItem from="1528215807314" duration="2152000" />
+      <workItem from="1528215807314" duration="3063000" />
     </task>
     <task id="LOCAL-00001" summary="Reset">
       <created>1521019502619</created>
@@ -459,14 +458,29 @@
       <option name="project" value="LOCAL" />
       <updated>1525006870433</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changes: Add more topics">
+      <created>1528219100488</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1528219100488</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changes: Add more topics">
+      <created>1528219242792</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528219242792</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53938000" />
+    <option name="totallyTimeSpent" value="54849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -478,10 +492,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6520147" weight="0.2851282" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7368742" visible="true" weight="0.34461537" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7368742" visible="true" weight="0.34461537" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1953602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1953602" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -783,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/others/virtual-network-systems.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="11" column="153" selection-start-line="11" selection-start-column="153" selection-end-line="11" selection-end-column="153" />
+        <state relative-caret-position="469">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
         </state>
       </provider>
     </entry>

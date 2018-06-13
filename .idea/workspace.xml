@@ -48,8 +48,8 @@
       <file leaf-file-name="virtual-network-systems.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/others/virtual-network-systems.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="278">
+              <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -188,16 +188,17 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1680" />
-    <option name="height" value="989" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,7 +237,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -344,7 +344,9 @@
       <workItem from="1522433285387" duration="10324000" />
       <workItem from="1522917453992" duration="346000" />
       <workItem from="1525005963672" duration="858000" />
-      <workItem from="1528215807314" duration="3063000" />
+      <workItem from="1528215807314" duration="4397000" />
+      <workItem from="1528731170067" duration="230000" />
+      <workItem from="1528760886882" duration="2389000" />
     </task>
     <task id="LOCAL-00001" summary="Reset">
       <created>1521019502619</created>
@@ -472,14 +474,28 @@
       <option name="project" value="LOCAL" />
       <updated>1528219242792</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Changes: Add more topics">
+      <created>1528221578190</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528221578190</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Changes: Add more topics">
+      <created>1528221749832</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1528221749832</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54849000" />
+    <option name="totallyTimeSpent" value="58802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -487,15 +503,15 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.26312578" side_tool="true" visible="true" weight="0.34461537" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.26434678" side_tool="true" visible="true" weight="0.30245537" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.12591687" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6520147" weight="0.2851282" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7368742" visible="true" weight="0.34461537" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7356532" visible="true" weight="0.30245537" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1953602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2002442" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -687,17 +703,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html" />
     <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="153">
             <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -797,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/others/virtual-network-systems.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="278">
+          <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="61" />
         </state>
       </provider>
     </entry>

@@ -11,8 +11,8 @@ The system will look like the following diagram:
 <br>
 <strong>Note: the ip addresses of the VMs are different from the above diagram (also even if you don't use docker but normal VMs tool like VirtualBox...), but the method stays the same.</strong>
 <ol>
-    <li>Run the first router: <code>docker run --cap-add=NET_ADMIN -ti -P --name=router1 hungpham/ubuntu:v5 /bin/bash</code></li>
-    <li>Run the second router: <code>docker run --cap-add=NET_ADMIN -ti -P --name=router2 hungpham/ubuntu:v5 /bin/bash</code></li>
+    <li>Run the first router: <code>docker run --cap-add=NET_ADMIN -ti -P --name=router1 --net br0 --ip 172.16.2.4 ubuntu:v10 /bin/bash</code></li>
+    <li>Run the second router: <code>docker run --cap-add=NET_ADMIN -ti -P --name=router2 --net br0 --ip 172.16.2.5 ubuntu:v10 /bin/bash</code></li>
     <li>Add interfaces to 2 routers:
         <br>
         <code>
@@ -22,16 +22,14 @@ The system will look like the following diagram:
     </li>
     <li>Run 2 containers: <br>
         <code>
-            docker run -ti --cap-add=NET_ADMIN --name=vm1 hungpham/ubuntu:v5 /bin/bash <br>
-            docker run -ti --cap-add=NET_ADMIN --name=vm2 hungpham/ubuntu:v5 /bin/bash
+            docker run -ti --cap-add=NET_ADMIN --name=vm1 --net br1 --ip 192.168.1.100 ubuntu:v10 /bin/bash <br>
+            docker run -ti --cap-add=NET_ADMIN --name=vm2 --net br2 --ip 10.2.4.37 ubuntu:v10 /bin/bash
         </code>
     </li>
     <li>Remove default interface in 2 VMs, and add new interface to them:<br>
         <code>
-            docker network disconnect bridge vm1 <br>
-            docker network disconnect bridge vm2<br>
-            docker network connect br1 vm1<br>
-            docker network connect br2 vm2<br>
+            docker network connect br1 vm1 --ip 192.168.1.5 <br>
+            docker network connect br2 vm2 --ip 10.2.4.2
         </code>
     </li>
     <li>Setup iptabble for both routers: <br>
@@ -42,9 +40,9 @@ The system will look like the following diagram:
             iptables -A FORWARD --in-interface eth1 -j ACCEPT
         </code>
     </li>
-    <li>For router1: <code>route add default gateway 172.17.0.3   (ip address of router 2)</code></li>
-    <li>For router2: <code>route add default gateway 172.17.0.2   (ip address of router 1)</code></li>
-    <li>For vm1: <code>route add default gateway 192.168.1.2</code></li>
+    <li>For router1: <code>route add default gateway 172.16.2.5   (ip address of router 2)</code></li>
+    <li>For router2: <code>route add default gateway 172.16.2.4   (ip address of router 1)</code></li>
+    <li>For vm1: <code>route add default gateway 192.168.1.100</code></li>
     <li>For vm2: <code>route add default gateway 10.2.4.2</code></li>
 </ol>
 

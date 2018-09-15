@@ -7,7 +7,7 @@ type: Unix / Linux
 ---
 
 <p>
-    Check you quota:
+    Check quota:
 </p>
 <code>
     $ quota -v
@@ -18,3 +18,6 @@ type: Unix / Linux
 <code>
     $ df .
 </code>
+<p>To display the largest folders/files including the sub-directories, run:</p>
+<code>du -hs * | sort -rh | head -5 <br>
+    du -Sh | sort -rh | head -5</code>

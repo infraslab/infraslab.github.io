@@ -50,7 +50,32 @@ type: Others
         <p>Create source NAT at router 1:</p>
         <code>$ iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to 172.16.2.4
     </code>
-    <p>Create destination NAT at router 1:</p>
-    <code>$ iptables -t nat -A PREROUTING -p TCP --dport 8080 -i eth0 -j DNAT --to 192.168.1.100:8180</code>
+        <p>Create destination NAT at router 1:</p>
+        <code>$ iptables -t nat -A PREROUTING -p TCP --dport 8080 -i eth0 -j DNAT --to 192.168.1.100:8180</code>
     </li>
 </ol>
+
+<strong>Application Level Gateway recap:</strong>
+<div>
+    <p>Advantages:</p>
+    <ul>
+        <li>user specific rule</li>
+        <li>Fine-gained control (communication peers, functions)</li>
+        <li>Content checking (detect malware, suspicious content)</li>
+        <li>No direct connection between sender/receiver</li>
+        <li>Logging</li>
+    </ul>
+    <p>Disadvantages:</p>
+    <ul>
+        <li>Applciation specific</li>
+        <li>expose to attacks</li>
+    </ul>
+</div>
+
+<strong>Weakness in the concept of Firewall:</strong>
+<div>
+    <ul>
+        <li>Mobile devices</li>
+        <li>Tunnels and encryption</li>
+    </ul>
+</div>

@@ -7,21 +7,22 @@ layout: default
 </h1>
 
 <h2>
-    Windows
+    <a href="{{site.windows-loc}}"
+                   class="{% if page.url contains 'windows' %}menu{% endif %}">Windows</a>
 </h2>
 <ul>
     {% include listpages.html link='/windows/' %}
 </ul>
 
 <h2>
-    Unix / Linux
+    <a href="{{site.unix-linux-loc}}" class="{% if page.url contains 'unix' %}menu{% endif %}">Unix / Linux</a>
 </h2>
 <ul>
     {% include listpages.html link='/unix-linux/' %}
 </ul>
 
 <h2>
-    Others
+    <a href="{{site.others-loc}}" class="{% if page.url contains 'others' %}menu{% endif %}">Others</a>
 </h2>
 <ul>
     {% include listpages.html link='/others/' %}

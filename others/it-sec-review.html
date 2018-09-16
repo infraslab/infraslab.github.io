@@ -9,7 +9,9 @@ type: Others
 <h2>I. Introduction</h2>
 <h3>1. Define the term "IT-Security"</h3>
 <p>
-    Protection of information and information systems against unauthorized access and modification and availability of information system services for legitimate users, including measures to thwart, discover or log threats. Protection against unauthorized access must be ensured during storage, processing or in transit.
+    Protection of information and information systems against unauthorized access and modification and availability of
+    information system services for legitimate users, including measures to thwart, discover or log threats. Protection
+    against unauthorized access must be ensured during storage, processing or in transit.
 </p>
 
 <h3>2. What are the aims of “IT-Security”? Describe each aim briefly and present an example.</h3>
@@ -18,8 +20,10 @@ type: Others
         <li>Confidentiality: Protection against unauthorized access</li>
         <li>Integrity: Protection against unauthorized modification</li>
         <li>Availability: Resources and Services are available for legitimate users</li>
-        <li>Authenticity and authentication: Unambiguous idenfification of the sender of information or a communication peer</li>
-        <li>Nonrepudiation: Ability to prove that a given message was sent and by whom to a third party not involved in communication</li>
+        <li>Authenticity and authentication: Unambiguous idenfification of the sender of information or a communication
+            peer</li>
+        <li>Nonrepudiation: Ability to prove that a given message was sent and by whom to a third party not involved in
+            communication</li>
         <li>Authorization: Accces to resources is limited to certain group of (authenticated) users</li>
     </ul>
 </p>
@@ -28,24 +32,24 @@ type: Others
 <p>
     Passive Attacks
     <ul>
-    <li>Attacker does not actively participate</li>
-    <li>Example: Snooping and wiretapping</li>
-    <li>Difficult to discover</li>
-    <li>Preventive means of protection against active attacks</li>
-</ul>
+        <li>Attacker does not actively participate</li>
+        <li>Example: Snooping and wiretapping</li>
+        <li>Difficult to discover</li>
+        <li>Preventive means of protection against active attacks</li>
+    </ul>
     Active attacks
-<ul>
-    <li>Attacker actively manipulates systems or data</li>
-    <li>Manipulation of data or systems</li>
-    <li>Attacker often leaves traces</li>
-    <li>Prevention and Detection possible</li>
-</ul>
+    <ul>
+        <li>Attacker actively manipulates systems or data</li>
+        <li>Manipulation of data or systems</li>
+        <li>Attacker often leaves traces</li>
+        <li>Prevention and Detection possible</li>
+    </ul>
 </p>
 
 <h2>II. Cryptographical Principles and Methods</h2>
 <p>
     Cryptographic model: <br>
-    <img src="/resource/img/crypto-model.png" width="600"/>
+    <img src="/resource/img/crypto-model.png" width="600" />
     <br>
     Classical Encryption Methods:
     <ul>
@@ -123,16 +127,23 @@ type: Others
 
     <br>
     From the internet: <br>
-    You usually start by generating a private key / public key pair, followed by a CSR (Certificate Signing Request). The CSR would contain a copy of the public key and some basic information about the subject. Once you've generated a CSR, you would then submit that CSR to a CA. 
+    You usually start by generating a private key / public key pair, followed by a CSR (Certificate Signing Request).
+    The CSR would contain a copy of the public key and some basic information about the subject. Once you've generated
+    a CSR, you would then submit that CSR to a CA.
 
-Once the CA is done signing the cert, the CA would then return the cert to you and you would then import that signed certificate to your server. 
+    Once the CA is done signing the cert, the CA would then return the cert to you and you would then import that
+    signed certificate to your server.
 
-If we recall our discussion on digital certificates, the signed cert would contain some basic information regarding the subject (your site), the issuer, the validity period, the public key (of your site), and a digital signature of the cert signed using the CA's private key. 
-<br>
-In summary,
-You generate a private key / public key pair and submit a CSR to a Certificate Authority. The contents of the CSR will form part of the final server certificate.
-The CA verifies whether the information on the certificate is correct and then signs it using its (the CA's) private key. It then returns the signed server certificate to you.
-You import the signed server certificate unto your server.
+    If we recall our discussion on digital certificates, the signed cert would contain some basic information regarding
+    the subject (your site), the issuer, the validity period, the public key (of your site), and a digital signature of
+    the cert signed using the CA's private key.
+    <br>
+    In summary,
+    You generate a private key / public key pair and submit a CSR to a Certificate Authority. The contents of the CSR
+    will form part of the final server certificate.
+    The CA verifies whether the information on the certificate is correct and then signs it using its (the CA's)
+    private key. It then returns the signed server certificate to you.
+    You import the signed server certificate unto your server.
 </p>
 
 <h2>IV. Operating System Security</h2>
@@ -169,7 +180,16 @@ You import the signed server certificate unto your server.
     </ul>
 </div>
 
-<h2>Firewall</h2>
+<h2>VI. Firewall</h2>
 <p>
     <img src="/resource/img/firewall-solution.png" width="600" />
 </p>
+<div>
+    <p>Problems and Limits of Packet filter:</p>
+    <ul>
+        <li>No user or application-specific filtering possible</li>
+        <li>Use of Transport-layer information to identify application protocols</li>
+        <li>Application with varying port number</li>
+        <li>Tunneling and encryption </li>
+    </ul>
+</div>

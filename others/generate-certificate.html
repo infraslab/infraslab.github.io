@@ -17,6 +17,8 @@ type: Others
         <code>
             openssl genrsa -des3 -out machine-private-key.pem 4096 <br>
             openssl req -new -key machine-private-key.pem -out machine-csr.csr <br>
+            or in one line: <br>
+            openssl req -nodes -newkey rsa:2048 -keyout example.key -out example.csr -subj "/C=GB/ST=London/L=London/O=Global Security/OU=IT Department/CN=example.com"
         </code></li>
     <li> Sign the machine CSR with private root CA key and root CA certificate:<br>
         <code>openssl x509 -req -in machine-csr.csr -CA rootCA-cert.pem -CAkey private-CA-key.pem -CAcreateserial -days 500 -sha256 -out machine-cert.pem</code>

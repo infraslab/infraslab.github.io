@@ -2,8 +2,8 @@
 layout: post
 title: How to Setup Private VPN
 link: setup-openvpn
-category: others
-type: Others
+category: unix-linux
+type: Unix / Linux
 ---
 
 <strong>For RHEL</strong>
@@ -15,7 +15,7 @@ type: Others
     <li>Get server template file: <br>
     <code>$ cd /usr/share/doc/openvpn-*/sample/sample-config-files/ <br>
     $ cp server.conf /etc/openvpn</code></li>
-    <li>Generate keys and certificate and DH file with this: <a href="{{site.others-loc}}/virtual-network-systems" style="color:blue">How to Generate Own Certificates</a></li>
+    <li>Generate keys and certificate and DH file with this: <a href="{{site.unix-linux-loc}}/generate-certificate" style="color:blue">How to Generate Own Certificates</a></li>
     <li>Change server.conf file: <br>
     <code>push "redirect-gateway def1 bypass-dhcp"<br>
         push "dhcp-option DNS 8.8.8.8"<br>
@@ -36,7 +36,7 @@ type: Others
 <ol>
     <li>Install openvpn: <br>
         <code>$ yum install openvpn</code></li>
-        <li>Generate keys and certificate and DH file with this: <a href="{{site.others-loc}}/virtual-network-systems" style="color:blue">How to Generate Own Certificates</a></li>
+        <li>Generate keys and certificate and DH file with this: <a href="{{site.unix-linux-loc}}/generate-certificate" style="color:blue">How to Generate Own Certificates</a></li>
     <li>Copy the ta key file from server to client</li>
     <li>Create client.ovpn file:<br>
     <code>client<br>

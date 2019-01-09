@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>
-    Welcome to <b>SoftsPlay</b>
+    Welcome to <b>InfrasLab</b>
 </h1>
 
 <h2>

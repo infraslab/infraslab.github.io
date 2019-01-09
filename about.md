@@ -3,17 +3,17 @@ layout: default
 title: About
 ---
 <h1>
-    About SoftsPlay
+    About InfrasLab
 </h1>
 <h3>
-    What is <b>SoftsPlay</b>?
+    What is <b>InfrasLab</b>?
 </h3>
 
 <p>
-    SoftsPlay contains all the tricks or How-Tos or knowledge that I learn from the Internet or at the university.
-    Therefore, the post here can be anything that is interesting for me.
+    InfrasLab contains all the tricks or How-Tos or knowledge that I learn from the Internet or at the university.
+    Therefore, the posts here can be anything that is interesting for me.
     <br>
-    SoftsPlay is created with Jekyll technology and hosted on Github.
+    InfrasLab is created with Jekyll technology and hosted on Github.
 </p>
 <!-- 
 

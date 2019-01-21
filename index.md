@@ -36,9 +36,9 @@ layout: default
     {% include listpages.html link='/documentations/' %}
 </ul>
 
-<h2>
+<!-- <h2>
     <a href="{{site.others-loc}}" class="{% if page.url contains 'others' %}menu{% endif %}">Others</a>
 </h2>
 <ul>
     {% include listpages.html link='/others/' %}
-</ul>
+</ul> -->

@@ -7,11 +7,11 @@ layout: default
 </h1>
 
 <h2>
-    <a href="https://35.157.12.75/openstack">InfrasLab Openstack Platform</a>
+    <a href="https://35.157.12.75/openstack" rel="noopener noreferrer" target="_blank">InfrasLab Openstack Platform</a>
 </h2>
 
 <h2>
-    <a href="https://35.157.12.75/gitlab">InfrasLab GitLab</a>
+    <a href="https://35.157.12.75/gitlab" rel="noopener noreferrer" target="_blank">InfrasLab GitLab</a>
 </h2>
 
 <!-- <h2>

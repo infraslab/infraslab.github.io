@@ -14,7 +14,7 @@ layout: default
     <a href="https://35.157.12.75/gitlab">InfrasLab GitLab</a>
 </h2>
 
-<h2>
+<!-- <h2>
     <a href="{{site.windows-loc}}"
                    class="{% if page.url contains 'windows' %}menu{% endif %}">Windows</a>
 </h2>
@@ -27,6 +27,13 @@ layout: default
 </h2>
 <ul>
     {% include listpages.html link='/unix-linux/' %}
+</ul> -->
+
+<h2>
+    <a href="{{site.documentations}}" class="{% if page.url contains 'documentations' %}menu{% endif %}">Documentations</a>
+</h2>
+<ul>
+    {% include listpages.html link='/documentations/' %}
 </ul>
 
 <h2>

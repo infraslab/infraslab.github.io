@@ -32,9 +32,9 @@ layout: default
 <h2>
     <a href="{{site.documentations}}" class="{% if page.url contains 'documentations' %}menu{% endif %}">Documentations</a>
 </h2>
-<ul>
+<!-- <ul>
     {% include listpages.html link='/documentations/' %}
-</ul>
+</ul> -->
 
 <!-- <h2>
     <a href="{{site.others-loc}}" class="{% if page.url contains 'others' %}menu{% endif %}">Others</a>

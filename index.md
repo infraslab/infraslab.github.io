@@ -7,6 +7,14 @@ layout: default
 </h1>
 
 <h2>
+    <a href="https://35.157.12.75/openstack">InfrasLab Openstack Platform</a>
+</h2>
+
+<h2>
+    <a href="https://35.157.12.75/gitlab">InfrasLab GitLab</a>
+</h2>
+
+<h2>
     <a href="{{site.windows-loc}}"
                    class="{% if page.url contains 'windows' %}menu{% endif %}">Windows</a>
 </h2>

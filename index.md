@@ -15,7 +15,7 @@ layout: default
 </h2>
 
 <h2>
-    <a href="https://35.157.12.75/kubernetes/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/" rel="noopener noreferrer" target="_blank">InfrasLab Kubernetes Dashboard</a>
+    <a href="https://35.157.12.75/kubernetes/" rel="noopener noreferrer" target="_blank">InfrasLab Kubernetes Dashboard</a>
 </h2>
 
 <!-- <h2>

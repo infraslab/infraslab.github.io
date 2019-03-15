@@ -13,14 +13,14 @@ type: documentations
     <li>Generate self-signed certificate from <a href="{{site.documentations}}/generate-certificate">here</a></li>
     <li><a href="https://docs.docker.com/registry/deploying/">Deploy a registry server</a>
     <br>
-    <code>$ $ docker run -d \
-            --restart=always \
-            --name registry \
-            -v "$(pwd)"/certs:/certs \
-            -e REGISTRY_HTTP_ADDR=0.0.0.0:443 \
-            -e REGISTRY_HTTP_TLS_CERTIFICATE=/certs/domain.crt \
-            -e REGISTRY_HTTP_TLS_KEY=/certs/domain.key \
-            -p 443:443 \
+    <code>$ $ docker run -d \<br>
+            --restart=always \<br>
+            --name registry \<br>
+            -v "$(pwd)"/certs:/certs \<br>
+            -e REGISTRY_HTTP_ADDR=0.0.0.0:443 \<br>
+            -e REGISTRY_HTTP_TLS_CERTIFICATE=/certs/domain.crt \<br>
+            -e REGISTRY_HTTP_TLS_KEY=/certs/domain.key \<br>
+            -p 443:443 \<br>
             registry</code>
 </li>
 <li>Add your CA like following:<br>
